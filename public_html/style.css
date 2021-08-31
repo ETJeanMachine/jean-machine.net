@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'MesloLGS NF';
+    src: url('/assets/fonts/MesloLGS NF Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MesloLGS NF";
+    src: url('/assets/fonts/MesloLGS NF Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "MesloLGS NF";
+    src: url('/assets/fonts/MesloLGS NF Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MesloLGS NF";
+    src: url('assets/fonts/MesloLGS NF Bold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+}
+
+div.header {
+    font-family: 'MesloLGS NF';
+    font-weight: bold;
+    text-align: left;
+    background-color: black;
+    margin: 0;
+    padding: 5px;
+    font-size: 24pt;
+}
+
+#agnoster-a {
+    color: #ffffff;
+    background-color: #212121;
+    padding-left: 3px;
+    padding-top: 0.7px;
+    padding-bottom: 0.7px;
+}
+
+#agnoster-b {
+    color: #212121;
+    background-color: #134eb2;
+    padding-top: 0.7px;
+    padding-bottom: 0.7px;
+}
+
+#agnoster-c {
+    color: #134eb2;
+    background-color: black;
+}
+
+#cursor {
+    color: white;
+}
+
+#command-area {
+    color: white;
+}
+
+#nav-bar {
+    text-align: center;
+}

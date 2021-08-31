@@ -1,0 +1,6 @@
+# Redirects home on a 404 error.
+ErrorDocument 404 /index.html
+ErrorDocument 403 /index.html
+
+AddType text/css .css
+AddType text/javascript .js

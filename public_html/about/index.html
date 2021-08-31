@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>~/about</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/javascript/command-line.js" lang="javascript"></script>
+</head>
+
+<body>
+    <div class="header">
+        <span class="agnoster" id="agnoster-a">guest@jean-machine </span>
+        <span class="agnoster" id="agnoster-b"> ~/about </span>
+        <span class="agnoster" id="agnoster-c"></span>
+        <span id="command-area"></span>
+        <span id="cursor"></span>
+    </div>
+    <div id="nav-bar">
+        <a class="nav-element" onmouseover="typeCommand('cd ~')" onmouseout="deleteCommand('')" href="/home/">Home</a>
+        <a class="nav-element" onmouseover="typeCommand('cd ~/about')" onmouseout="deleteCommand('')" class="cd-link"
+            href="/about/">About</a>
+    </div>
+</body>
+
+<!-- Including the navbar. -->
+<script>
+    commandLine();
+</script>
+
+</html>
