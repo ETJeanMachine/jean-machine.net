@@ -30,41 +30,11 @@ body {
 div.header {
     font-family: 'MesloLGS NF';
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     background-color: black;
+    color: white;
     margin: 0;
     padding: 5px;
     font-size: 24pt;
 }
 
-#agnoster-a {
-    color: #ffffff;
-    background-color: #212121;
-    padding-left: 3px;
-    padding-top: 0.7px;
-    padding-bottom: 0.7px;
-}
-
-#agnoster-b {
-    color: #212121;
-    background-color: #134eb2;
-    padding-top: 0.7px;
-    padding-bottom: 0.7px;
-}
-
-#agnoster-c {
-    color: #134eb2;
-    background-color: black;
-}
-
-#cursor {
-    color: white;
-}
-
-#command-area {
-    color: white;
-}
-
-#nav-bar {
-    text-align: center;
-}
