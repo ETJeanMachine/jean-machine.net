@@ -24,17 +24,39 @@
 }
 
 body {
+    font-family: 'MesloLGS NF';
     margin: 0;
 }
 
 div.header {
-    font-family: 'MesloLGS NF';
     font-weight: bold;
     text-align: center;
     background-color: black;
     color: white;
     margin: 0;
     padding: 5px;
-    font-size: 24pt;
+    font-size: 7vh;
 }
 
+div.nav-bar {
+    background-color: rgb(114, 114, 114);
+    text-align: center;
+}
+
+a.nav-bar {
+    color:white;
+    font-style: italic;
+    font-size: 3vh;
+}
+
+ul.nav-bar {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    display: table;
+    margin: 0;
+}
+
+li.nav-bar {
+    display: table-cell;
+}
